@@ -1,0 +1,124 @@
+.container{ 
+	width:100%; margin:0 auto; 
+}
+
+.container > span > img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	white-space: nowrap;
+}
+figcaption{
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 700;
+}
+body{
+	background: rgba(0, 0, 0, .9);
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(index.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
+.item{
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+}
+body h1{
+	text-align: center;
+	padding-top: 3%;
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 3em;
+}
+body h3{
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Monospace;
+	font-size: 1.5em;
+}
+@media only screen and (max-width: 768px){
+	body h1{
+		font-size: 2.5em;
+	}
+	body h3{
+		font-size: 1.5em;
+	}
+	figcaption{
+		left: -25%;
+		margin-bottom: 20px;
+		position: relative;
+	}
+	body{ height:100%;
+        width:100%;
+        background-size:cover;
+        background-repeat:repeat;
+        background-position: fixed;
+	}
+	li a{
+		font-size: 12px;
+	}
+}
+body h4{
+	text-align: center;
+	line-height: 200%;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-family: Monospace;
+
+}
+.main_box{
+	padding: 30px;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+ul{
+	list-style: none;
+	margin-left: -10px;
+}
+li a{
+	float: left;
+	margin-right: 15px;
+	color: #FFFFFF;
+	font-family: monospace;
+}
+li a:hover{
+	color: #EEEEEE;
+}
+.main_box input[type=email]{
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(0,0,4,0.8);
+}
+.main_box input[type=password]{
+	 width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(0,0,4,0.8);
+}
+.modal-header{
+	text-align: center;
+}
+.modal-dialog{
+	margin-top: 15%;
+}
+.modal-header h4{
+	color: #000;
+}
