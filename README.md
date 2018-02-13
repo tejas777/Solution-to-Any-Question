@@ -1,6 +1,6 @@
 # Solution-to-Any-Question
 
-The web Application is created by taking the idea of quora and facebook so that any user can get the solution to its question.
+The web Application is created by taking the idea of quora and facebook so that any user can get the solution to its question. This project is done by 2 students Tejas Sangani and Abhishek Bakare.
 
 Objective:
 
